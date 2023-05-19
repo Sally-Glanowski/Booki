@@ -180,7 +180,7 @@ input{
 .icone{
     border: 2px solid #d9d9d9;
     padding:15px;
-    border-radius: 25px;
+    border-radius: 30px;
 }
 
 .icone:hover{
@@ -195,11 +195,12 @@ input{
 }
 
 .fa-solid.fa-money-bill-wave.icone_filtres,
-.fa-solid.fa-child-reaching.icone_filtres,
+.fa-solid.fa-person,
 .fa-solid.fa-heart.icone_filtres,
 .fa-solid.fa-fire
 {
     color:#0065FC;
+    font-size: 23px;
 }
 
 #info{
@@ -239,8 +240,9 @@ main{
     width:100%;
     max-width: 811px;
     justify-content: center;
-    gap:10px;
-    margin: 70px 0px -60px 0px;  
+    gap:27px;
+    margin: 70px 0px -43px 0px;  
+   
 }
 
 .marseille-title{
@@ -318,6 +320,7 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
+    margin-left: 10px;
     margin-top:0px;
 }
 
@@ -328,6 +331,7 @@ main{
 .card-rating{
     display: flex;
     margin-top: -32px;
+    margin-left: 7px;
     
 }
 
@@ -553,6 +557,7 @@ footer{
     margin-left: 50px;
     margin-right: 23px;
     height: 100%;
+    padding-bottom: 10px;
 }
 
 .container-liste-pdp{
@@ -601,10 +606,7 @@ footer{
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    body{
-        width: 100%;
-    }
-
+    
     header{
         height: 79px;
     }
@@ -756,10 +758,8 @@ footer{
 
     body{
         width: 379px;
-        padding:0px;
-        display:flex;
-        flex-direction: column;
-        height: auto;
+        padding:0;
+        margin:auto;
     }
 
     header{
@@ -843,7 +843,7 @@ footer{
     .fa-solid .fa-location-dot
     {
         width: 50px;
-        height: 49px;
+        height: 49px; 
     }
 
     button{
@@ -862,7 +862,7 @@ footer{
        position:absolute;
        left:310px;
        top:18px; 
-       color: black;
+       color: #f2f2f2;;
     }
     
     
@@ -888,15 +888,26 @@ footer{
     .icone{
       width: 128px;  
       height: 16px;
-      font-size:14px;
+      
       font-style: normal;
       line-height: 16px;
       font-weight: 700;
       text-align: center; 
     }
 
-    #info{
+    span{
+        font-size: 14px;
+    }
 
+    .fa-solid.fa-money-bill-wave.icone_filtres,
+    .fa-solid.fa-person,
+    .fa-solid.fa-heart.icone_filtres,
+    .fa-solid.fa-fire {
+    font-size: 23px; /* Nouvelle taille pour les icônes en mode responsive */
+    margin-top: -4px;
+  }
+
+    #info{
         margin: 0px 15px 35px 15px;
     }
 
@@ -911,22 +922,24 @@ footer{
         margin:0px
     }
 
+
     /*****POPULAIRES*****/
 
 
     .populaires{
         display:flex;
         flex-direction:column;
-        height: 590px;
+        height: 600px;
         width: 353px;
         border-radius: 0px 0px 0px 0px;
         margin:0px;
+        padding-top: 17px;
     }
 
     .container-populaires{
         height:140px;
         width: 340px;
-        margin:0px;
+        margin-left:5px;
     }
 
     .pop{
@@ -939,6 +952,7 @@ footer{
     .populaires-title{
         display:flex;
         margin-left:-10px;
+        margin-bottom: 5px;
     }
 
     .fa-solid.fa-chart-line{
@@ -954,28 +968,35 @@ footer{
         gap:10px;
     }
 
+    .card-txt{
+        
+        padding-left: 6px;
+    }
+
+    .card-rating2{
+        margin-left: 6px;
+    }
+
     /*****HEBERGEMENTS*****/
 
     .hebergements{
         display:flex;
         flex-wrap:wrap;
         flex-direction: row;
-        width:333px;
+        width:100%;
         height: 1470px;
-        margin-left:0px;
-        padding-bottom:60px;
+        margin-left: 11px;padding-bottom:60px;
         background-color: #FFFFFF;
     }
 
     .marseille-title{
         margin-top:25px;
-        margin-left: -11px;
+        margin-left: -20px;
         font-family: 'Raleway';
         font-size: 22px;
         font-weight: 700;
         line-height: 26px;
         letter-spacing: 0em;
-        text-align: left;
         width:100%;
     }
 
@@ -983,7 +1004,7 @@ footer{
         display:flex;
         width:335px;
         margin-left:0px;
-      }  
+    }  
          
     .hebergements-cards{
         display:flex;
@@ -994,10 +1015,21 @@ footer{
     .container-cards{
         flex-direction: column;
         width: 100%;
-        margin-top: 20px;  
+        margin-top: 0px; 
     }
-    .card-content{
-        width:100%;
+
+    .container-cards:nth-child(n+4) {
+        margin-top: -62px; /* permet de remonter les cards à partir de la 4ème*/
+    }
+    
+    
+    .card-txt1{
+        padding-left: 6px;
+        margin-top: 8px;
+    }
+
+    .card-rating{
+        padding-left: 6px;
     }
 
     .img-hebergement{
@@ -1017,22 +1049,28 @@ footer{
 
     .activities{
         display: flex;
+        padding:0;
+        margin:0;
         flex-direction: column;
-        padding-left: 0px;
+        align-items: center;
+        text-align: center;/*aligne les titres dans les cards*/
         margin-bottom:25px;
         margin-top:30px;
-        width:335px;
+        width:100%;
     } 
 
     #activites-loisir{
-        margin-left:20px;
+        margin-left: 32px;
+        
     }
-    
+
+    .activities-name{
+        margin-left: 0px;
+    }
 
     .activities-container{
-        display:flex;
         width:315px;
-        height: 200px;
+        height: 200px;   
     }
 
     .img-activities{
@@ -1042,16 +1080,19 @@ footer{
     
 
     /*****FOOTER*****/
+    
     footer{
+
         display:flex;
         flex-direction: column;
-        margin-left:0px;
-        
+        margin:50px 0px 0px 0px;
+        width:100%;
+        padding-bottom: 30px;  
     }
 
     .container-liste-pdp{
-        padding-top:50px;
-        padding-left:20px;
+        padding-top:35px;
+        padding-left:27px;
     }
 
     .pied-de-page{
