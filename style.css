@@ -374,7 +374,7 @@ main{
 .card-subtitle{
     margin-top:5px;
     font-family: 'Raleway';
-    font-size:0.875;
+    font-size:14px;
     
     margin-left: 0px;
     position:relative;
@@ -605,7 +605,9 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-
+body{
+    margin-left:20px;
+}
     
     header{
         height: 79px;
@@ -700,11 +702,11 @@ footer{
         position: relative;
     }
     
-    .cards {
+    .card {
         display: flex;
         flex-direction: row;
-        width: 274.69;
-        max-width:100%; 
+        width: 100%;
+        
         justify-content: space-between;  
     }
 
@@ -719,7 +721,7 @@ footer{
         width:100%;
         margin-left: 0px;
         justify-content: left;
-        gap:10px;
+        
     }
     
 
