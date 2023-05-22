@@ -829,12 +829,13 @@ footer{
 
 
     body{
+        margin:0 auto;
         display:flex;
         flex-direction: column;
         align-items: left;
-        width: 0 auto;
-        max-width: ;
-        padding:0px 20px 0px 20px;
+        width: 375px;
+        padding: 0;
+        
         height: auto;
     }
 
@@ -847,9 +848,8 @@ footer{
     }
 
     .logo-small{
-        padding-left: 0px;
-        margin-left: 0px;
-        justify-content: center;
+        margin: 0px 0px 0px 20px;
+        
     }
 
     nav {
@@ -862,10 +862,12 @@ footer{
     }
 
     .hebergement-ul{
-        width: 375px;
+        width: 100%;
         height:35px;
         text-align: center;
         padding:0px;
+        height:50px;
+        gap:0px;
     }
 
     .hebergement-ul li:hover{
@@ -884,16 +886,11 @@ footer{
         display: none;
     }
       
-    .logo-small{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-left: 156.96px;
-    }
+   
 
     h1{
         margin-bottom: 0px;
-        
+        padding-left: 20px;
     }
 
     p{
@@ -903,13 +900,15 @@ footer{
         font-weight: 400;
         line-height: 19px;
         letter-spacing: 0em; 
+        padding-left: 20px;
     }
 
     /*****barre de localisation*****/
 
     form{
-        width:330px;
+        width:335px;
         position:relative;
+        padding-left: 20px;
         
     }
 
@@ -939,7 +938,7 @@ footer{
     .fa-solid.fa-magnifying-glass{
        display:block;
        position:absolute;
-       left:300px;
+       left:324px;
        top:18px; 
        color: #f2f2f2;;
     }
@@ -949,10 +948,12 @@ footer{
     .container-filtres{
         height:157px;
         margin: 0px 0px 35px;
+        padding-left: 20px;
     }
 
     #titre-filtres{
        margin-bottom: 15px;
+       padding-left: 20px;
     }
 
     #filtres-info{
@@ -986,7 +987,8 @@ footer{
   }
 
     #info{
-        margin: 0px 0px 0px 0px;
+        padding-left: 20px;
+        margin-bottom:0px;
     }
 
     .fas.fa-info{
@@ -1001,7 +1003,8 @@ footer{
     main{
         display:flex;
         flex-direction: column-reverse;
-        margin:0px
+        padding-top: 0px;
+        margin-top: 0px;
     }
 
 
@@ -1012,19 +1015,15 @@ footer{
         display:flex;
         flex-direction:column;
         height: 600px;
-        width: 104%;
+        max-width: 375px;
         border-radius: 0px 0px 0px 0px;
-        margin-right:0px;
-        align-items: center;
-        justify-content: center;
-        
-        padding-top: 17px;
+        padding:0;
+        padding-bottom: 30px;
     }
 
     .container-populaires{
         height:140px;
         width: 340px;
-        
     }
 
     .pop{
@@ -1036,13 +1035,15 @@ footer{
 
     .populaires-title{
         display:flex;
-       padding-left: 80px;
+        width: 340px;
+       padding-left: 20px;
         margin-bottom: 5px;
     }
 
     .fa-solid.fa-chart-line{
        margin-top:18px;
        font-size: 19px;
+       padding-right: 0px;
     }
 
     .card{
@@ -1071,14 +1072,14 @@ footer{
         flex-wrap:wrap;
         flex-direction: row;
         width:100%;
+        padding-right: 0px;
+        padding-left: 0px;
         height: 1470px;
-        
-        
         background-color: #FFFFFF;
     }
 
     .marseille-title{
-        margin-top:10px;
+        margin:0;
         padding-left: 3px; 
         font-family: 'Raleway';
         font-size: 22px;
@@ -1090,9 +1091,7 @@ footer{
 
       .hebergements-cards1{
         display:flex;
-        
-        
-        max-width: 335px;
+         max-width: 335px;
     }  
          
     .hebergements-cards{
@@ -1107,12 +1106,15 @@ footer{
         width: 100%;
         margin-top: 0px; 
         padding-top: 0px;
+        padding-left: 20px;
     }
 
     .container-cards2{
         flex-direction: column;
         width: 100%;
-        margin-top: 230px; 
+        margin-top: 190px; 
+        
+        padding-left: 20px;
     }
 
     
@@ -1148,7 +1150,7 @@ footer{
         margin:0;
         flex-direction: column;
         align-items: center;
-        text-align: center;/*aligne les titres dans les cards*/
+        text-align: left;/*aligne les titres dans les cards*/
         margin-bottom:25px;
         margin-top:30px;
         width:100%;
@@ -1160,7 +1162,7 @@ footer{
     }
 
     .activities-name{
-        margin-left: 0px;
+        margin-left: 19px;
     }
 
     .activities-container{
