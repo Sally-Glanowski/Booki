@@ -1062,7 +1062,7 @@ footer{
     }
 
     .card-rating2{
-        padding-left: -30px;
+        padding-left: 10px;
     }
 
     /*****HEBERGEMENTS*****/
@@ -1079,20 +1079,21 @@ footer{
     }
 
     .marseille-title{
-        margin:0;
-        padding-left: 3px; 
+        margin-left:0px;
+        padding-left: 10px; 
         font-family: 'Raleway';
         font-size: 22px;
         font-weight: 700;
         line-height: 26px;
         letter-spacing: 0em;
-        width:100%;
-        background-color: red;
+        width:90%;
     }
 
       .hebergements-cards1{
         display:flex;
          max-width: 335px;/**/
+         padding-top: 0px;
+         margin-top: 0px;
     }  
          
     .hebergements-cards{
@@ -1105,7 +1106,7 @@ footer{
     .container-cards{
         flex-direction: column;
         width: 100%;
-        margin-top: 0px; 
+        margin-top: -220px; 
         padding-top: 0px;
         padding-left: 20px;
     }
@@ -1113,21 +1114,17 @@ footer{
     .container-cards2{
         flex-direction: column;
         width: 100%;
-        margin-top: 190px; 
-        
+        margin-top: 72px; 
         padding-left: 20px;
     }
 
-    
-    
-    
     .card-txt1{
         padding-left: 6px;
         margin-top: 8px;
     }
 
     .card-rating{
-        padding-left: 6px;
+        padding-left: 0px;
     }
 
     .img-hebergement{
@@ -1138,8 +1135,8 @@ footer{
     #afficher-plus{
         position:absolute;
         top:1445px;
-        right: 20px;
-        width:90%;
+         width:90%;
+        margin-left: 0px;
     }
 
 
@@ -1158,8 +1155,8 @@ footer{
     } 
 
     #activites-loisir{
-        margin-left: 32px;
-        
+         padding-left: 30px;
+        padding-top:80px;
     }
 
     .activities-name{
@@ -1185,7 +1182,8 @@ footer{
         flex-direction: column;
         margin:50px 0px 0px 0px;
         width:100%;
-        padding-bottom: 30px;  
+        padding-bottom: 30px; 
+        height: auto; 
     }
 
     .container-liste-pdp{
