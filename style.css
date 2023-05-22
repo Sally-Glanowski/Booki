@@ -720,7 +720,7 @@ footer{
         flex-direction: row;
     }
 
-    /*****POPULAIRES*****/
+    /*****POPULAIRES****/
     
     
     .populaires-title{
@@ -732,7 +732,7 @@ footer{
         color:#0065FC;
         margin-top: 19px;
         padding-right: 34px;
-     }
+     }  
 
     .populaires{
         display:flex;
