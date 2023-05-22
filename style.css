@@ -1,14 +1,11 @@
-*{
-    margin:0;
-}
 
 
 body{
-    margin:0 auto;
-    width: 100%;
-    max-width: 1412px;
-    padding-right: 30px;
-    height: auto;
+    margin: 0 auto;
+    max-width: 1344px;
+    padding: 0px 50px 0px 50px;
+    border:solid red 2px;
+    
 }
 
 
@@ -26,11 +23,13 @@ header{
 .hebergement-ul{
     display:flex;
     width: 200px;
-    padding-right:30px;
+    padding-right: 43px;
     padding-top: 20px;
     height:50px;
-    justify-content: space-between;margin-top: 0px;
+    justify-content: space-between;
+    margin-top: 0px;
     list-style-type:none;   
+    gap:69px;
 }
 
 #hebergement-li{
@@ -61,7 +60,7 @@ li:hover:before { /*ajoute une pseudo classe pour la barre de survol*/
 
 
 .logo-small{
-    margin: 30px 0px 0px 30px;
+    padding: 30px 0px 0px 0px;
     width: 61.09px;
     height:19px;
 }
@@ -72,7 +71,7 @@ h1{
     font-weight: 700;
     line-height: 19px;
     letter-spacing: 0em;
-    margin: 40px 0px 15px 50px;
+    padding: 20px 0px 15px 0px;
 }
 
 p{    
@@ -81,7 +80,7 @@ p{
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
-    margin: 0px 0px 30px 50px;
+    padding: 0px 0px 20px 0px;
 }
 
 /*****BARRE DE LOCALISATION*****/
@@ -92,7 +91,7 @@ form {
     margin-bottom: 20px;
     width: 377px;
     height: 49px;
-    margin: 10px 0px 20px 50px;
+    padding: 0px 0px 5px 0px;
 }
 
 .fa-location-dot{
@@ -138,8 +137,7 @@ input{
 /*****FILTRES*****/
 
 #titre-filtres{
-    margin-left: 30px;
-    padding-right: 0;
+    
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
@@ -152,7 +150,7 @@ input{
     display:flex;
     flex-direction: row;
     gap:10px;
-    margin: 30px 0px 20px 20px;
+    margin: 0px 0px 20px 20px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -161,12 +159,14 @@ input{
 
 .container-filtres{
     display:flex;
+    padding-top:10px
 }
 
 #titre-filtres{
     display:flex;
     align-items: center;
     gap:100px;  
+    height: 55px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -181,6 +181,7 @@ input{
     border: 2px solid #d9d9d9;
     padding:15px;
     border-radius: 30px;
+    height: 20px;
 }
 
 .icone:hover{
@@ -205,9 +206,11 @@ input{
 
 #info{
     display:flex;
-    margin: 40px 0px 20px 50px;
+    padding-left:0px;
+    margin: 37.5px 0px 37.5px 0px;
     gap:10px;
     margin-bottom: 28px;
+    margin-top:5px;
 }
 
 .fas.fa-info{
@@ -238,17 +241,28 @@ main{
 .container-cards{
     display:flex;
     width:100%;
-    max-width: 811px;
+    max-width: 871px;
     justify-content: center;
-    gap:27px;
-    margin: 70px 0px -43px 0px;  
-   
+    gap:25px;
+    padding-top: 86px;
+    padding-right: 20px;
+    
+}
+
+.container-cards2{
+    display:flex;
+    width:100%;
+    max-width: 871px;
+    justify-content: center;
+    gap:25px;
+    padding-top: 25px;
+    padding-right: 20px;  
 }
 
 .marseille-title{
     position: absolute;
-    top: 18px;
-    left: 28px;
+    top:35px;
+    left: 12px;
     margin: 0;
     padding: 0;
 }
@@ -263,9 +277,9 @@ main{
     position:relative;
     height: 614px;
     background-color: #f2f2f2;
-    margin-left:30px;
     border-radius: 15px;
-    padding:20px;
+    padding-bottom: 31px;
+    position: relative;
 }
 
 #afficher-plus{
@@ -279,6 +293,9 @@ main{
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0em;
+    position:absolute;
+    top:480px;
+    left: 26px;
 }
 
 .hebergements-cards1 :hover{
@@ -296,12 +313,14 @@ main{
 }
 
 .hebergements-cards1{
+    max-width: 250.33px;
+    min-width: 190px;;
     height: 207.25px;
     flex-basis: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 4px;
+    border:4px solid white;
     background-color: #FFFFFF;
     border-radius: 20px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
@@ -311,16 +330,16 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
-    margin-top: 10px;
+    
     
 }
 
 .card-txt1{
     display:flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    height: 30px;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top:0px;
 }
 
@@ -330,8 +349,8 @@ main{
 
 .card-rating{
     display: flex;
-    margin-top: -32px;
-    margin-left: 7px;
+    margin-top: 19px;
+    margin-left: 15px;
     
 }
 
@@ -339,8 +358,8 @@ main{
     width: 15px;
     height: 15px;
     color: yellow;
-    display: inline-block;
-    position:relative;
+    
+    
 }
 
 .card-rating .fa-solid{
@@ -366,18 +385,22 @@ main{
 }
 
 .card-title{
-    margin-bottom: 0px;
+    margin:0;
+    padding:4px 0px 0px 15px;
     font-size: 16px;
     font-family: 'Raleway';
 }
 
 .card-subtitle{
-    margin-top:5px;
+    margin-top:0px;
+    padding:8px 0px  0px 15px;
     font-family: 'Raleway';
     font-size:14px;
+    margin-bottom: 0px;
+    align-self: stretch;
     
-    margin-left: 0px;
-    position:relative;
+    
+   
 }
 
 
@@ -395,19 +418,25 @@ main{
 }
 
 .card-txt{
+    margin:0;
     display:flex;
     flex-direction: column;
-    padding-left: 10px; 
+    padding-left: 2px; 
 }
 
+
+
 .populaires {
-    width: 45%;
+    max-width: 429px;
     display:flex;
     border-radius: 20px;
     flex-direction: column;
     background-color: #f2f2f2;
-    margin-left: 27px;
-    padding-right: 20px;
+    margin-left: 18px;
+    padding-right: 24px;
+    padding-bottom: 10.5;
+    
+    
 }
 
 .populaires-title {
@@ -423,11 +452,13 @@ main{
     font-weight: 700;
     line-height: 19px;
     letter-spacing: 0em;
-    margin-top:20px;
+    margin-top:35px;
 }
 
 .fa-solid.fa-chart-line{
     color:#0065FC;
+    margin-top: 19px;
+    padding-right: 15px;
  }
 
 .card-content{
@@ -439,8 +470,8 @@ main{
 .card{
     display: flex;
     flex-direction: row;
-    width:99%;
-    min-width:160px;
+    width:100%;
+    min-width:230px;
     border:4px solid white;
     margin-left:7px;
     height: 146px;
@@ -450,7 +481,8 @@ main{
 }
 
 .img-populaires{
-    width: 30%;
+    width: 123px;
+    min-width:100px;
     height: 100%;
     object-fit: cover;
     border-radius: 20px 0px 0 20px;
@@ -479,10 +511,10 @@ main{
     display:flex;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-left:10px;
+    margin:36px 0px 0px 16px;
     height: 50px;
     color: #0065FC;
-    padding-bottom:10px;
+    
     
 }
 
@@ -497,21 +529,23 @@ main{
     margin:0 auto;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    max-width:1325px;
-    margin-left:57px;
+    gap:35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    
     margin-top:30px;
-    gap:20px;
+    
 }
 
 .activities-container{
     display:flex;
     flex-direction: column;
-    width:300.5px;
+    width:297.5px;
     height:439px;
     border-radius: 20px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+    
 }
 
 .activities-container :hover{
@@ -528,7 +562,8 @@ main{
 
 
 #activites-loisir{
-    margin-left: 74px;   
+    max-width: 1340px;
+    padding-left: 30px;
     margin-top: 65px; 
     font-family: 'Raleway';
     font-size: 22px;
@@ -553,11 +588,10 @@ a{
 
 footer{
     background-color: #f2f2f2;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 23px;
-    height: 100%;
-    padding-bottom: 10px;
+    width: 100%;
+    height: 163px;
+    margin-top: 65px;
+    align-items: center;
 }
 
 .container-liste-pdp{
@@ -576,7 +610,7 @@ footer{
 .ul-footer{
     display: flex;
     flex-direction: column;
-    padding-left:15px;
+    padding-left:20px;
 }
 
 .ol-title{
