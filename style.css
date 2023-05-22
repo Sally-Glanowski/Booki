@@ -1091,7 +1091,7 @@ footer{
 
       .hebergements-cards1{
         display:flex;
-         max-width: 335px;
+         max-width: 335px;/**/
     }  
          
     .hebergements-cards{
