@@ -706,8 +706,11 @@ body{
         display: flex;
         flex-direction: row;
         width: 100%;
-        
         justify-content: space-between;  
+    }
+
+    .card-txt{
+        margin-right: 30px;
     }
 
     .card-rating2{
@@ -761,7 +764,8 @@ body{
     body{
         width: 379px;
         padding:0;
-        margin:auto;
+        
+        margin-right: 0;
     }
 
     header{
@@ -890,7 +894,6 @@ body{
     .icone{
       width: 128px;  
       height: 16px;
-      
       font-style: normal;
       line-height: 16px;
       font-weight: 700;
@@ -971,12 +974,17 @@ body{
     }
 
     .card-txt{
-        
-        padding-left: 6px;
+         margin-right: 56px;
     }
 
+    .img-populaires{
+        width:112px;
+    }
+
+    
+
     .card-rating2{
-        margin-left: 6px;
+        padding-left: -30px;
     }
 
     /*****HEBERGEMENTS*****/
