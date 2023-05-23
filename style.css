@@ -4,8 +4,6 @@ body{
     margin: 0 auto;
     max-width: 1344px;
     padding: 0px 50px 0px 50px;
-    border:solid red 2px;
-    
 }
 
 
@@ -69,7 +67,7 @@ h1{
     font-family: 'Raleway';
     font-size: 22px;
     font-weight: 700;
-    line-height: 19px;
+    line-height: 26px;
     letter-spacing: 0em;
     padding: 20px 0px 15px 0px;
 }
@@ -399,10 +397,7 @@ main{
     font-family: 'Raleway';
     font-size:14px;
     margin-bottom: 0px;
-    align-self: stretch;
     
-    
-   
 }
 
 
@@ -436,7 +431,7 @@ main{
     background-color: #f2f2f2;
     margin-left: 18px;
     padding-right: 24px;
-    padding-bottom: 10.5;
+    padding-bottom: 10.5px;
     
     
 }
@@ -747,10 +742,12 @@ footer{
     .populaires{
         display:flex;
         width:100%;
-        max-width: 900px;
+        max-width: 970px;
         height: 252px;
         margin-top: 50px;
-        margin-left: 0px;
+        margin-left: 8px;
+        padding-left: 9px;
+        padding-right: 37px;
         padding-bottom: 20px;
         flex-direction: column; 
     }
@@ -790,7 +787,7 @@ footer{
     .card-rating2{
         position:absolute;
         top:68px;
-        left:122px;
+        left:127px;
     }
 
     .pop{
@@ -858,7 +855,7 @@ footer{
     }
 
     .logo-small{
-        margin: 0px 0px 0px 20px;
+        margin: 0px 0px 0px 0px;
         
     }
 
@@ -1027,10 +1024,11 @@ footer{
         display:flex;
         flex-direction:column;
         height: 600px;
-        max-width: 375px;
+        max-width:375px;
         border-radius: 0px 0px 0px 0px;
         padding:0;
         padding-bottom: 30px;
+        margin-left: 0px;
     }
 
     .container-populaires{
@@ -1059,24 +1057,34 @@ footer{
     }
 
     .card{
-        width:335px;
+        display:flex;
+        width:327px;
         max-width: 335px;
         height: 146px;
         gap:10px;
     }
 
     .card-txt{
-         margin-right: 56px;
+        padding-left: 0px;
+        margin-left: 0px;
     }
 
+    .card-content{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .card-title, .card-subtitle{
+        padding-left: 5px;
+    }
+    
+
     .img-populaires{
-       width: 50px;
-       object-fit: cover;
-        
+       min-width: 33%;
     }
 
     .card-rating2{
-        padding-left: 10px;
+        padding-left: 7px;
     }
 
     /*****HEBERGEMENTS*****/
@@ -1105,7 +1113,7 @@ footer{
 
     .hebergements-cards1{
         display:flex;
-         max-width: 335px;/**/
+         max-width: 325px;/**/
          padding-top: 0px;
          margin-top: 0px;
     }  
@@ -1128,7 +1136,7 @@ footer{
     .container-cards2{
         flex-direction: column;
         width: 100%;
-        margin-top: 72px; 
+        margin-top: 82px; 
         padding-left: 20px;
     }
 
@@ -1138,7 +1146,8 @@ footer{
     }
 
     .card-rating{
-        padding-left: 7px;
+        padding-left: 1px;
+        margin-top:15px;
     }
 
     .img-hebergement{
