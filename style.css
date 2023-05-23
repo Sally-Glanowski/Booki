@@ -842,7 +842,6 @@ footer{
         align-items: left;
         width: 375px;
         padding: 0;
-        
         height: auto;
     }
 
@@ -1046,7 +1045,7 @@ footer{
     .populaires-title{
         display:flex;
         width: 340px;
-       padding-left: 20px;
+        padding-left: 20px;
         margin-bottom: 5px;
     }
 
@@ -1178,7 +1177,7 @@ footer{
     } 
 
     #activites-loisir{
-         padding-left: 30px;
+        padding-left: 30px;
         padding-top:80px;
     }
 
