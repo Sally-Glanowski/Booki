@@ -128,8 +128,8 @@ input{
     width: 190px;
 }
 
-#barre-de-localisation input[type="texte"]::placeholder {
-    color: #000000; /* changement de la couleur du texte du placeholder en noir */
+#barre-de-localisation input[type="text"]::placeholder {
+    color:black; /* changement de la couleur du texte du placeholder en noir */
   }
 
 /*****FILTRES*****/
@@ -245,7 +245,6 @@ main{
     padding-top: 86px;
     padding-left:1.70%;
     padding-right: 1%;
-    
 }
 
 .container-cards2{
@@ -330,8 +329,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
-    
-    
 }
 
 .card-txt1{
@@ -350,8 +347,7 @@ main{
 .card-rating{
     display: flex;
     margin-top: 19px;
-    margin-left: 15px;
-    
+    margin-left: 15px; 
 }
 
 .card-rating .fa-xs .fa-solid .fa-star {
@@ -530,7 +526,6 @@ main{
     padding-left: 25px;
     padding-right: 25px;
     justify-content: center;
-    
     margin-top:30px;
     
 }
@@ -586,7 +581,7 @@ a{
 footer{
     background-color: #f2f2f2;
     width: 100%;
-    height: 163px;
+    height: auto;
     margin-top: 65px;
     align-items: center;
 }
@@ -645,9 +640,7 @@ footer{
     main{
         display: flex;
         flex-direction: column;
-        
         align-items: center;
-        
     }
 
      /*****BARRE DE LOCALISATION*****/
@@ -685,8 +678,6 @@ footer{
     .container-cards{
         width:99%;
         max-width:890px;
-        
-
         height:230px;
         gap:23.5px;
         padding-left:1.3%;
@@ -855,7 +846,6 @@ footer{
 
     .logo-small{
         margin: 0px 0px 0px 0px;
-        
     }
 
     nav {
