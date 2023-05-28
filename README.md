@@ -20,6 +20,7 @@ Spécifications fonctionnelles:
 -Fonction recherche:
 
 ● Les usagers pourront rechercher des hébergements dans la ville de leur choix.
+
 ● Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur.
 ● Il faut englober ce champ dans un formulaire. La partie Recherche ne doit pas être fonctionnelle - il s’agit d’une première version pour valider l’interface.
 
