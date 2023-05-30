@@ -2,6 +2,7 @@
 Page d'accueil de l'agence de voyage
 site web: https://sally-glanowski.github.io/Booki/
 
+
 -Le projet:
 
 Une entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
